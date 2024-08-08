@@ -1,0 +1,61 @@
+.layout-container {
+  height: calc(100vh - 200px);
+}
+
+#login-page footer,
+#signup-page footer {
+  display: none !important;
+}
+
+.login-form,
+.register-form {
+  width: 100%;
+  width: min(100%, 420px);
+  margin: 0 auto;
+  padding: 25px 0;
+}
+
+.sidebar__btn-menu,
+.topbar {
+  height: 80px;
+}
+
+.topbar__avatar {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.topbar__avatar img {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.profile-page {
+  .profile-header {
+    display: flex;
+    align-items: center;
+    .avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+  }
+  .auction-chunk {
+    margin-bottom: 2rem; /* Adjust the bottom margin as needed */
+  }
+  .profile-bids,
+  .profile-auctions {
+    margin-top: 20px;
+    h2 {
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      li {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
